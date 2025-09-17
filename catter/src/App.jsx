@@ -32,10 +32,10 @@ function App() {
     <div className="font-sans text-gray-800">
       {/* Navbar */}
       <nav className="sticky top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-lg">
-        <div className="max-w-full mx-auto px-4 sm:px-6 h-26 lg:px-4">
-          <div className="flex justify-between items-center h-35">
+        <div className="max-w-full mx-auto px-4 sm:px-6 h-22 lg:px-4">
+          <div className="flex justify-between text-xl items-center h-22">
             {/* Logo */}
-            <a href="/" className="flex items-center space-x-2 h-28 w-28 mt-2">
+            <a href="/" className="flex items-center space-x-2 h-23 w-22 mt-2">
               <img
                 className="rounded-full scale-110"
                 src="https://tajtaazagicatters.com/assets/logoCircle-fP27se6m.png"
