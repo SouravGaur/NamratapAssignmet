@@ -59,7 +59,7 @@ function App() {
 
               {/* Dropdown Menu */}
               <div className="relative group">
-                <button className="flex items-center text-sm space-x-1 text-gray-900 hover:text-rose-800   ">
+                <button className="flex items-center text-lg space-x-1 text-gray-900 hover:text-rose-800   ">
                   Menu
                   <ChevronDown className="h-4 w-4 text-xl transition-transform duration-200 group-hover:rotate-180" />
                 </button>
