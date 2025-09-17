@@ -33,7 +33,7 @@ function App() {
       {/* Navbar */}
       <nav className="sticky top-0 left-0 right-0  z-50 bg-white border-b border-gray-100 shadow-lg">
         <div className="max-w-full mx-auto px-4 sm:px-6 h-20 lg:px-4">
-          <div className="flex justify-between text-xl items-center h-22">
+          <div className="flex justify-between text-md items-center h-22">
             {/* Logo */}
             <a href="/" className="flex items-center space-x-2 h-23 w-22 mt-2">
               <img
@@ -50,7 +50,7 @@ function App() {
                   <a
                     key={item}
                     href={`/${item.toLowerCase()}`}
-                    className="text-gray-900 hover:text-rose-800 px-3 py-2 text-md font-medium transition-all duration-200 relative group after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-gray-900 after:transition-transform after:duration-300 hover:after:scale-x-100 text-lg"
+                    className="text-gray-900 hover:text-rose-800 px-3 py-2 text-md font-medium transition-all duration-200 relative group after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-gray-900 after:transition-transform after:duration-300 hover:after:scale-x-100 text-md"
                   >
                     {item}
                   </a>
@@ -59,7 +59,7 @@ function App() {
 
               {/* Dropdown Menu */}
               <div className="relative group">
-                <button className="flex items-center text-2xl space-x-1 text-gray-900 hover:text-rose-800 px-3 py-2 text-md ">
+                <button className="flex items-center text-sm space-x-1 text-gray-900 hover:text-rose-800   ">
                   Menu
                   <ChevronDown className="h-4 w-4 text-xl transition-transform duration-200 group-hover:rotate-180" />
                 </button>
@@ -93,7 +93,7 @@ function App() {
             <div className="hidden lg:flex items-center justify-center space-x-4">
               <a
                 href="tel:+91 9084153502"
-                className="inline-flex items-center justify-center px-7 py-3 border border-transparent  font-medium rounded-full text-white bg-rose-800 hover:bg-rose-700 transition-colors duration-200 text-lg mb-2"
+                className="inline-flex items-center justify-center px-7 py-3 border border-transparent  font-medium rounded-full text-white bg-rose-800 hover:bg-rose-700 transition-colors duration-200 text-md mb-2"
               >
                 Book Now
               </a>
@@ -105,7 +105,7 @@ function App() {
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="p-2 rounded-md text-rose-900 hover:bg-rose-100 transition-colors duration-200"
               >
-                <Menu className="h-8 w-8" />
+                <Menu className="h-8 w-8 text-md" />
               </button>
             </div>
           </div>
@@ -130,7 +130,7 @@ function App() {
               {/* Mobile Dropdown */}
               <button
                 onClick={() => setMobileDropdownOpen(!mobileDropdownOpen)}
-                className="w-full flex justify-between items-center px-3 py-2 text-base font-medium text-gray-700 hover:text-white hover:bg-rose-800 rounded-md transition-colors duration-150"
+                className="w-full flex justify-between items-center px-3 py-2 text-sm text-gray-700 hover:text-white hover:bg-rose-800 rounded-md transition-colors duration-150"
               >
                 Menu
                 <ChevronDown
