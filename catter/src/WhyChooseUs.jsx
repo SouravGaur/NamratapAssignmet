@@ -31,13 +31,13 @@ export default function WhyChooseUs() {
     <section className="mt-19 p-5">
       {/* Header */}
       <div className="w-2/3 max-md:w-full mx-auto">
-        <h1 className="text-4xl text-center font-bold  text-rose-800 tracking-widest uppercase">
+        <h1 className="text-2xl text-center font-bold  text-rose-800 tracking-widest uppercase">
           Why Choose Us
         </h1>
-        <h2 className="text-6xl text-center font-bold text-[#222222] max-md:text-3xl py-5">
+        <h2 className="text-4xl text-center font-bold text-[#222222] max-md:text-3xl py-5">
           Leave Your Guests Speechless With Our Fabulous Food!
         </h2>
-        <p className="text-2xl text-center text-[#222222] py-3 mb-5">
+        <p className="text-xl text-center text-[#222222] py-3 mb-5">
           We are a full-service catering company that specializes in creating
           custom menus that are tailored to your specific needs and budget. Our
           team of professionals will work with you to create a menu that is

@@ -36,13 +36,13 @@ export default function ServicesSection() {
     <section className="mt-16">
       {/* Header */}
       <div className="w-2/3 max-md:w-full mx-auto">
-        <h1 className="text-3xl text-center font-bold text-rose-800 tracking-widest uppercase">
+        <h1 className="text-2xl text-center font-bold text-rose-800 tracking-widest uppercase">
           What We Do.
         </h1>
-        <h2 className="text-7xl text-center font-bold text-[#222222] max-md:text-3xl py-5">
+        <h2 className="text-5xl text-center font-bold text-[#222222] max-md:text-3xl py-5">
           Premium catering services
         </h2>
-        <p className=" text-center text-2xl text-[#222222] py-2 px-2">
+        <p className=" text-center text-xl text-[#222222] py-2 px-2">
           We provide premium catering services for all events, big and small.
           Our team of professionals will work with you to create a custom menu
           that fits your needs and budget. Whether you're planning a wedding,
@@ -56,7 +56,7 @@ export default function ServicesSection() {
         {services.map((service, idx) => (
           <div
             key={idx}
-            className="w-1/2 min-h-80 bg-gray-100 max-md:w-full rounded-2xl overflow-hidden"
+            className="w-1/2 min-h-80 bg-gray-100 max-md:w-full rounded-xl overflow-hidden"
             data-aos={service.aos}
           >
             <div className="w-full h-68 overflow-hidden">
@@ -67,10 +67,10 @@ export default function ServicesSection() {
               />
             </div>
             <div className="p-5">
-              <h3 className="text-2xl font-bold text-rose-800 tracking-widest uppercase">
+              <h3 className="text-xl font-bold text-rose-800 tracking-widest uppercase">
                 {service.title}
               </h3>
-              <p className="text-2xl text-start text-[#222222] py-5">
+              <p className="text-xl text-start text-[#222222] py-5">
                 {service.description}
               </p>
             </div>

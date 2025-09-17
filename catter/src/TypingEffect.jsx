@@ -32,7 +32,7 @@ export default function TypingEffect() {
   }, [index, isDeleting]);
 
   return (
-    <h2 className="text-7xl text-white font-bold max-md:text-xl mb-5 py-4">
+    <h2 className="text-6xl text-white font-bold max-md:text-xl mb-5 py-4">
       {displayedText}
       <span className="animate-pulse">|</span> {/* blinking cursor */}
     </h2>

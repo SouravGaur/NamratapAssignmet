@@ -31,8 +31,8 @@ function App() {
   return (
     <div className="font-sans text-gray-800">
       {/* Navbar */}
-      <nav className="sticky top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-lg">
-        <div className="max-w-full mx-auto px-4 sm:px-6 h-22 lg:px-4">
+      <nav className="sticky top-0 left-0 right-0  z-50 bg-white border-b border-gray-100 shadow-lg">
+        <div className="max-w-full mx-auto px-4 sm:px-6 h-20 lg:px-4">
           <div className="flex justify-between text-xl items-center h-22">
             {/* Logo */}
             <a href="/" className="flex items-center space-x-2 h-23 w-22 mt-2">
@@ -93,7 +93,7 @@ function App() {
             <div className="hidden lg:flex items-center justify-center space-x-4">
               <a
                 href="tel:+91 9084153502"
-                className="inline-flex items-center justify-center px-7 py-3 border border-transparent  font-medium rounded-full text-white bg-rose-800 hover:bg-rose-700 transition-colors duration-200 text-2xl mb-2"
+                className="inline-flex items-center justify-center px-7 py-3 border border-transparent  font-medium rounded-full text-white bg-rose-800 hover:bg-rose-700 transition-colors duration-200 text-xl mb-2"
               >
                 Book Now
               </a>
@@ -182,7 +182,7 @@ function App() {
 
         {/* Content */}
         <div className="relative z-10 w-2/3 max-md:w-full max-md:px-2">
-          <h1 className="text-2xl tracking-widest  text-white font-bold mb-4">
+          <h1 className="text-xl tracking-widest  text-white font-bold mb-4">
             Welcome to Taj Taazagi Catters
           </h1>
 
@@ -193,7 +193,7 @@ function App() {
             </span>
           </h2> */}
 
-          <p className="text-2xl text-white font-semibold mb-8">
+          <p className="text-xl text-white font-semibold mb-8">
             We are the top vegetarian wedding caterer in Agra. We have completed
             over 2,000+ weddings, supported by a professional team of 340
             members.
@@ -202,7 +202,7 @@ function App() {
           {/* Button */}
           <button
             type="button"
-            className="mx-auto mt-6 font-sans cursor-pointer flex justify-center gap-2 items-center shadow-xl text-gray-50 bg-rose-800 backdrop-blur-md lg:font-semibold relative z-10 px-8 py-4 overflow-hidden text-2xl border-2 rounded-full hover:bg-rose-700 transition"
+            className="mx-auto mt-6 font-sans cursor-pointer flex justify-center gap-2 items-center shadow-xl text-gray-50 bg-rose-800 backdrop-blur-md lg:font-semibold relative z-10 px-5 py-3 overflow-hidden text-xl border-2 rounded-full hover:bg-rose-700 transition"
           >
             Explore
             <svg
