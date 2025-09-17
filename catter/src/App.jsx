@@ -50,7 +50,7 @@ function App() {
                   <a
                     key={item}
                     href={`/${item.toLowerCase()}`}
-                    className="text-gray-900 hover:text-rose-800 px-3 py-2 text-md font-medium transition-all duration-200 relative group after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-gray-900 after:transition-transform after:duration-300 hover:after:scale-x-100 text-xl"
+                    className="text-gray-900 hover:text-rose-800 px-3 py-2 text-md font-medium transition-all duration-200 relative group after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-gray-900 after:transition-transform after:duration-300 hover:after:scale-x-100 text-lg"
                   >
                     {item}
                   </a>
@@ -93,7 +93,7 @@ function App() {
             <div className="hidden lg:flex items-center justify-center space-x-4">
               <a
                 href="tel:+91 9084153502"
-                className="inline-flex items-center justify-center px-7 py-3 border border-transparent  font-medium rounded-full text-white bg-rose-800 hover:bg-rose-700 transition-colors duration-200 text-xl mb-2"
+                className="inline-flex items-center justify-center px-7 py-3 border border-transparent  font-medium rounded-full text-white bg-rose-800 hover:bg-rose-700 transition-colors duration-200 text-lg mb-2"
               >
                 Book Now
               </a>
