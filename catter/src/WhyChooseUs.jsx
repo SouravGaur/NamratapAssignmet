@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
             <h3 className="text-[#222222] text-2xl font-semibold py-2">
               {reason.title}
             </h3>
-            <p className="text-[#222222] text-lg font-semibold">
+            <p className="text-[#222222] text-md font-semibold">
               {reason.description}
             </p>
           </div>

@@ -52,7 +52,7 @@ export default function ExperienceSection() {
   return (
     <div className="p-4 mt-8">
       {/* Heading */}
-      <p className="text-4xl font-semibold mb-2 uppercase tracking-widest text-rose-800 my-4">
+      <p className="text-3xl font-semibold mb-2 uppercase tracking-widest text-rose-800 my-4">
         Experience....
       </p>
 

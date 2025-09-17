@@ -44,15 +44,15 @@ const TestimonialsSection = () => {
 
       {/* Left Section */}
       <div className="w-1/2 max-md:w-full relative z-10">
-        <h1 className="text-3xl font-bold text-white tracking-widest uppercase">
+        <h1 className="text-2xl font-bold text-white tracking-widest uppercase">
           Testimonials.
         </h1>
-        <h1 className="text-7xl font-bold text-white max-md:text-3xl py-5">
+        <h1 className="text-4xl font-bold text-white max-md:text-3xl py-5">
           What People Say About Us?
         </h1>
 
         <div className="review-text mb-10 min-h-[250px]">
-          <p className="text-2xl text-start text-white py-2">{text}</p>
+          <p className="text-xl text-start text-white py-2">{text}</p>
           <h1 className="text-xl font-bold text-white tracking-widest uppercase mt-4">
             {name}
           </h1>
@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
           </button>
           <button
             onClick={handleNext}
-            className="cursor-pointer flex justify-center items-center shadow-xl text-2xl text-rose-800 bg-white p-2 border-2 rounded-full hover:bg-rose-100"
+            className="cursor-pointer flex justify-center items-center shadow-xl text-xl text-rose-800 bg-white p-2 border-2 rounded-full hover:bg-rose-100"
           >
             <ChevronRight className="h-6 w-6" />
           </button>

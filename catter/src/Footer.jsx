@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer
-      className="bg-[#222222da] text-white py-8 bg-cover text-xl bg-no-repeat"
+      className="bg-[#222222da] text-white py-8 bg-cover text-lg bg-no-repeat"
       style={{ backgroundImage: "url('/assets/footer-bg-Cu47M1vb.png')" }}
     >
       <div className="mx-auto px-4 md:px-8 lg:px-12">
@@ -23,7 +23,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex gap-2 mt-5">
               <a
-                className="text-lg text-rose-800 bg-white p-2 border-2 rounded-full"
+                className="text-md text-rose-800 bg-white p-2 border-2 rounded-full"
                 href="/"
               >
                 {/* YouTube / Video Icon */}
@@ -59,7 +59,7 @@ export default function Footer() {
               </a>
 
               <a
-                className="text-lg text-rose-800 bg-white p-2 border-2 rounded-full"
+                className="text-md text-rose-800 bg-white p-2 border-2 rounded-full"
                 href="https://www.instagram.com/tajtaazagicatters?igsh=d3UyaHlyaWpiZzI5"
                 target="_blank"
                 rel="noreferrer"
@@ -81,7 +81,7 @@ export default function Footer() {
 
           {/* Services */}
           <div className="md:w-1/4 mb-6 md:mb-0">
-            <h2 className="text-xl font-bold mb-4">Our Services</h2>
+            <h2 className="text-lg font-bold mb-4">Our Services</h2>
             <div className="w-full flex justify-between flex-row gap-2">
               <ul>
                 <li className="mb-2 py-1">Annaprasana</li>
@@ -102,8 +102,8 @@ export default function Footer() {
 
           {/* Contact */}
           <div className="w-full md:w-1/3">
-            <h2 className="text-xl font-bold mb-4">Contact Now</h2>
-            <h2 className="text-2xl font-bold mb-4 uppercase text-rose-500">
+            <h2 className="text-md font-bold mb-4">Contact Now</h2>
+            <h2 className="text-xl font-bold mb-4 uppercase text-rose-500">
               Namrata Foods
             </h2>
 
